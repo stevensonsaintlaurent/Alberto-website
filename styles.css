@@ -130,7 +130,7 @@ img {
 }
 
 .section {
-  padding-block: 5rem 2rem;
+  padding-block: 3rem 2rem;
 }
 
 .section-title {
@@ -458,6 +458,16 @@ img {
   width: 100%;
 }
 /* EXPERIENCE */
+
+.experience{
+  display: flex;
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
 .experience-content {
   row-gap: 2rem;
 }
