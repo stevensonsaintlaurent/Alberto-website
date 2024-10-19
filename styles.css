@@ -1,6 +1,11 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -459,15 +464,6 @@ img {
 }
 /* EXPERIENCE */
 
-.experience{
-  display: flex;
-  background-color: aqua;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-
 .experience-content {
   row-gap: 2rem;
 }
@@ -493,8 +489,8 @@ img {
 }
 /* SKILLS */
 .skills-img {
-  width: 35px;
-  margin-bottom: 0.5rem;
+  width:25%;
+  /* margin-bottom: 0.5rem; */
 }
 
 .skills-name {
