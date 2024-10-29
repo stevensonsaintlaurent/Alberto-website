@@ -180,6 +180,84 @@ img {
   cursor: pointer;
 }
 
+/*=============== photos ===============*/
+/* .photos {
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+}
+.photos .photos-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photos .skills-box {
+  width: 30%;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.photos .skills-box img {
+  border-radius: 8px;
+} */
+
+/*=============== Photos Gallery ===============*/
+.photos-content {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.photos-content img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.photos-content img:hover {
+  transform: scale(0.8) rotate(-15deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.full-img img {
+  width: 90%;
+  max-width: 500px;
+}
+
+.full-img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+/*=============== SERVICES ===============*/
+
+.services {
+  background-color: var(--container-color);
+  margin-top: 40px;
+  background-image: url(images/black.jpg);
+  background-size: cover;
+}
+
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
   .nav-menu {
@@ -484,37 +562,6 @@ img {
   margin-bottom: 0.75rem;
 }
 
-/*=============== photos ===============*/
-.photos {
-  display: flex;
-  align-items: center;
-  margin-top: 34px;
-}
-.photos .photos-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.photos .skills-box {
-  width: 30%;
-  margin: 8px;
-  border-radius: 8px;
-}
-
-.photos .skills-box img {
-  border-radius: 8px;
-}
-/*=============== SERVICES ===============*/
-
-.services {
-  background-color: var(--container-color);
-  margin-top: 40px;
-  background-image: url(images/black.jpg);
-  background-size: cover;
-}
-
 /* .section-title {
   font-size: var(--h3-font-size);
   margin-bottom: 0.75rem;
@@ -676,20 +723,6 @@ img {
 
 .show-scroll {
   bottom: 3rem;
-}
-
-/*=============== Photos Gallery ===============*/
-.photos-content {
-  width: 80%;
-  margin: 100px auto 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 30px;
-}
-
-.photos-content img {
-  width: 100%;
-  cursor: pointer;
 }
 
 /*=============== BREAKPOINTS ===============*/

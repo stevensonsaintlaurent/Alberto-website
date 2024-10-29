@@ -1,6 +1,18 @@
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
+const fullImgBox = document.getElementById("full-img-box");
+const fullImg = document.getElementById("full-img");
+
+// ========== Gallery =============
+function openFullImg(pic) {
+  fullImgBox.style.display = "flex";
+  fullImg.src = pic;
+}
+
+function closeFullImg() {
+  fullImgBox.style.display = "none";
+}
 
 // Menu show
 if (navToggle) {

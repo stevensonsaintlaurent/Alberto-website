@@ -241,21 +241,26 @@ Mujer entiendan sus roles.
           <!-- <section class="photos" id="gallery"> -->
             <!-- <h3 class="info-title">Gallery</h3> -->
 
+            <div class="full-img" id="full-img-box">
+              <img src="images/men.jpg"  id="full-img">
+              <span onclick="closeFullImg()">X</span>
+            </div>
+
             <div class="photos-content ">
               
-                <img src="images/mur.jpg" alt="" />
+                <img src="images/mur.jpg"  onclick="openFullImg(this.src)"/>
           
-                <img src="images/chaine.jpg" alt=""/>
+                <img src="images/chaine.jpg"  onclick="openFullImg(this.src)" />
             
-                <img src="images/marron.jpg"  alt=""/>
+                <img src="images/marron.jpg" onclick="openFullImg(this.src)" />
 
-                <img src="images/black.jpg" alt=""/>
+                <img src="images/black.jpg"  onclick="openFullImg(this.src)"/>
              
-                <img src="images/blackwhite.jpg" alt=""/>
+                <img src="images/blackwhite.jpg" onclick="openFullImg(this.src)"/>
               
-                <img src="images/blackfont.jpg" alt=""/>
+                <img src="images/blackfont.jpg" onclick="openFullImg(this.src)"/>
       
-                <img src="images/bot.jpg" alt=""  />
+                <img src="images/bot.jpg"  onclick="openFullImg(this.src)" />
              
             </div>
        <!-- </section> -->
