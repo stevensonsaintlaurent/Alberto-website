@@ -180,29 +180,6 @@ img {
   cursor: pointer;
 }
 
-/*=============== photos ===============*/
-/* .photos {
-  display: flex;
-  align-items: center;
-  margin-top: 34px;
-}
-.photos .photos-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.photos .skills-box {
-  width: 30%;
-  margin: 8px;
-  border-radius: 8px;
-}
-
-.photos .skills-box img {
-  border-radius: 8px;
-} */
-
 /*=============== Photos Gallery ===============*/
 .photos-content {
   width: 80%;
