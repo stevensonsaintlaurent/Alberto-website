@@ -558,6 +558,8 @@ img {
 .services-title {
   font-size: var(--h3-font-size);
   margin-bottom: 0.75rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
 }
 
 /*=============== CONTACT ===============*/
