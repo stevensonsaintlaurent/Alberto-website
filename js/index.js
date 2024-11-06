@@ -2,9 +2,22 @@ const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
 const fullImgBox = document.getElementById("full-img-box");
+const fullVideoBox = document.getElementById("full-video-box");
 const fullImg = document.getElementById("full-img");
+const fullVideo = document.getElementById("full-video");
 
-// ========== Gallery =============
+// ========== Video =============
+function openFullVideo(pic) {
+  fullVideoBox.style.display = "flex";
+  fullVideo.src = pic;
+}
+console.log(fullVideo);
+
+function closeFullVideo() {
+  fullVideoBox.style.display = "none";
+}
+
+// ========== Gallery ==''===========
 function openFullImg(pic) {
   fullImgBox.style.display = "flex";
   fullImg.src = pic;
@@ -95,7 +108,7 @@ form.addEventListener("submit", function (e) {
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");
   //when the scroll is higher than 350 viewport height ,add the
-  console.log("sonson", scrollUp);
+
   this.scrolly >= 350
     ? scrollUp.classList.add("show-scroll")
     : scrollUp.classList.remove("show-scroll");
@@ -138,8 +151,6 @@ const scrollActive = () => {
           alert("Oops... " + JSON.stringify(error));
         });
     });
-
-    console.log("oooo", sectionsClass);
 
     if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
       sectionsClass.classList.add("active-link");
