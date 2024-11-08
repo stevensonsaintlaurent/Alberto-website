@@ -7,9 +7,8 @@ const fullImg = document.getElementById("full-img");
 const fullVideo = document.getElementById("full-video");
 
 // ========== Video =============
-function openFullVideo(pic) {
+function openFullVideo() {
   fullVideoBox.style.display = "flex";
-  fullVideo.src = pic;
 }
 console.log(fullVideo);
 
