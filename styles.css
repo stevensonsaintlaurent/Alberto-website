@@ -253,6 +253,12 @@ img {
   background-image: url(images/black.jpg);
   background-size: cover;
 }
+.workshop {
+  background-color: var(--container-color);
+  margin-top: 40px;
+  /* background-image: url(images/black.jpg); */
+  background-size: cover;
+}
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
