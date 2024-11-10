@@ -253,6 +253,7 @@ img {
   background-image: url(images/black.jpg);
   background-size: cover;
 }
+
 .workshop {
   background-color: var(--container-color);
   margin-top: 40px;
